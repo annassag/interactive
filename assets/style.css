@@ -1,0 +1,64 @@
+ body {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        h2 { 
+            font-family: "Work Sans";
+            font-style: normal;
+            margin: 0;
+         }
+
+         .back
+         { 
+            font-family: "Work Sans";
+            font-style: normal;
+            margin: 0;
+            padding: 2em;
+         }
+
+        a { 
+            visited: red;
+            text-decoration: none;
+            color: #6900ba;
+         }
+        
+       .background {
+            background-image: url("felix.jpg");
+            height: 100vh;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+
+        }
+
+        #container {
+            padding-top: 30%;
+            font-family: "Work Sans","Helvetica", sans-serif;
+            letter-spacing: 0.07em;
+            columns: 400px 2;
+            padding-right: 0;
+            padding-bottom: 0em;
+        }
+
+        .sideways {
+            -webkit-transform: rotate(65deg);
+            -moz-transform: rotate(65deg);
+            -ms-transform: rotate(65deg);
+            -o-transform: rotate(65deg);
+            text-align: left;
+            padding: 2em;
+        }
+
+        .upright {
+            padding-left: 35%;
+            padding-right: 2em;
+            padding-top: 0em;
+
+
+        }

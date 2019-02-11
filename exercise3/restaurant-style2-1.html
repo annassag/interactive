@@ -3,9 +3,86 @@
 <head>
 	<link href="https://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet">
 	<title>Jeera Thai</title>
+	<style type="text/css">
+
+		.grid-container {
+		  display: inline-grid;
+		 grid-template-columns: 10% 45% 45%;
+		  padding: 20px;
+
+		}
+
+		.grid-item {
+		  padding: 20px;
+		   border: 1px black;
+		}
+
+		div {
+  		clear: both;
+		}
+
+		table {
+			width: 400px;
+		}
+
+		body {
+			font-family: "Arial";
+			margin: 0;
+		}
+
+		
+		a {
+			font-family: "Arial Black";
+			color: purple;
+			visited: purple;
+			active: purple;
+		}
+
+		h1{
+			font-family: "Arial Black";
+		}
+
+
+		.top {
+		background-color: purple;
+		color: white; !important 
+		width: 100%;
+		letter-spacing: 0.1em;
+	
+		}
+
+
+		.bottom {
+			background-color: purple;
+			margin: 0;
+			padding: 20px;
+			color: white;
+
+		}
+
+		#container h2 {
+			font-family: "Arial Black";
+			color: purple;
+
+			}
+
+		.headline {
+			font-size: 7em;
+			margin-top: 0;
+			margin-bottom: 1em;
+			padding-top: 0.5em;
+			font-family: "Merienda One"
+
+		}
+
+
+	</style>
+
+
+
 </head>
 <center>
-	<div class="top"><p style="font-size: 7em; margin-top: 0em; margin-bottom: 1em; padding-top: 0.5em;font-family: 'Merienda One'">Jeera Thai</p>
+	<div class="top"><p class="headline">Jeera Thai</p>
 	<h2>HEALTHY THAI KITCHEN<br><br><br><br>
 	216 Crown Street<br>
 	New Haven, CT, 06510<br><br>
@@ -21,8 +98,18 @@
 	<h3>Vegan, gluten free upon request</h3><br><br></div>
 </center>
 </p>
-<div id="container">
-	<h2>AAHAAN WANG (APPETIZERS)</h2>
+	
+<div id="container" class="grid-container">
+	
+<div class="grid-item">
+		<a href="#aahan-wang">AAHAAN WANG (APPETIZERS)</a><br><br>
+		<a href="#thom">THOM</a>
+	</div>
+
+
+	<div class="grid-item">
+<p>
+	<div id="aahan-wang"><h2>AAHAAN WANG (APPETIZERS)</h2></div>
 	<ol>
 	<li><strong>PAD THAI SPRING ROLLS<span style="float:right">5.95</span></strong><br>CRISPY THAI SPRING ROLLS WITH PINEAPPLE SAUCE<br><br>
 	<li><strong>GREEN EMERALD DUMPLING<span style="float:right">6.95</span></strong><br>STEAMED VEGETABLE DUMPLING WITH VINAIGRETTE AND ROASTED SESAME DIPPING SAUCE<br><br>
@@ -30,10 +117,8 @@
 	<li><strong>🌶️ROTI CANAI<span style="float:right">5.95</span></strong><br>SOUTHERN THAI STYLE CREPE WITH YELLOW CURRY DIPPING SAUCE<br><br>
 	</ol>
 </p>
-
 <p>
-	<h2>THOM</sh2> 
-
+	<div id="thom"><h2>THOM</h2></div> 
 	<ol>
 	<li><strong>🌶️TOM YUM (VEGETARIAN OPTION AVAILABLE)<span style="float:right">4.95</span></strong><br>SPICY SHRIMP SOUP LEMONGRASS, GALANGAL, AND FRESH LIME LEAF, REFINED AND POWERFUL<br><br>
 	<li><strong>THAI COCONUT SOUP (VEGETARIAN OPTION AVAILABLE)<span style="float:right">4.95</span></strong><br>REFRESHING SOUP WITH CHICKEN LEMONGRASS, GALANGAL, AND FRESH LIME LEAF IN COCONUT BROTH<br><br>
@@ -67,12 +152,40 @@
 	<ol>
 	<li><strong> THAI BBQ CHICKEN</strong><br> MARINATED CHICKEN WITH THAI SEASONING SERVED WITH BLACK STICKY RICE AND SPICY TAMARIND SAUCE<br>
 	</ol>
-	</div>
 	<h3><strong><i><center>Please let the sever know the degree of your desired spiciness.</center></i></strong></h3>
 	<h5><strong><i><center>Thorougly cooking meats, poultry, seafood, shellfish or eggs reduces the risk of food bourne illness</center></i></strong></h5>
 </p>
 
-<div id="container">
+<p>
+<h2>SIDE ORDER</h2>
+<table>
+ 	<tr>
+    <td>RED JASMIN RICE</td>
+    <td>1</td>
+    <td>PEANUT SAUCE</td>
+    <td>2</td></h1></tr>
+  </tr>
+  <tr>  
+    <td>STEAMED RICE NOODLE</td>
+    <td>1</td>
+  </tr>
+</table><br><br>
+</p>
+
+<p>
+	<h2>KOAK WAAN (DESSERT)</h2> 
+	<ol>
+	<li>MANGO WITH COCONUT STICKY RICE<span style="float:right">5.95</span><br>
+	<li>YAM CUSTARD WITH PURPLE STICKY RICE<span style="float:right">5.95</span><br><br>
+	</ol>
+</p>
+
+<center><h3><strong><i>Please let the sever know the degree of your desired spiciness.</i></strong></h3>
+	<h5><strong><i>Thorougly cooking meats, poultry, seafood, shellfish or eggs reduces the risk of food bourne illness</i></strong></h5><center>
+
+	</div>
+	
+<div class="grid-item">
 <hr size="2" color= "black">
 <table>
  	<b>
@@ -111,13 +224,23 @@
 	<li><strong> 🌶️HIMMAPAN</strong><br> BOKCHOY, BELL PEPPER, ONION, CARROT, PINEAPPLE AND CASHEW NUTS WITH HOMEMADE SAUCE<br><br>
 	</ol>
 </p>
+<p>
+	<h2>AAHAAN PAD (STIR FRIED)</h2> 
+	<ol>
+	<li><strong> 🌶️🌶️KAPROW</strong><br> ASIAN VEGETABLES, ONION, GARLIC, CARROT AND CHILIES IN HOT BASIL SAUCE<br><br>
+	<li><strong> PAD PAK RUAM</strong><br> ASSORTED VEGETABLES, WITH DELICATE BROWN SAUCE<br><br>
+	<li><strong> 🌶️🌶️ASIAN EGGPLANT</strong><br> ASIAN EGGPLANT STIR FRIED WITH BELL PEPPER, ONION, GARLIC, CARROT, BASIL & CHILI, YELLOW BEAN WITH BROWN SAUCE<br><br>
+	<li><strong> JEERA'S DISH</strong><br> STEAMED NAPA, BABY BOKCHOY WITH CURRY PEANUT SAUCE<br><br>
+	<li><strong> 🌶️HIMMAPAN</strong><br> BOKCHOY, BELL PEPPER, ONION, CARROT, PINEAPPLE AND CASHEW NUTS WITH HOMEMADE SAUCE<br><br>
+	</ol>
+</p>
 
 
 <p>
 	<h2>KAENG (CURRY)</h2> 
-	</div><h4><i>Served with jasmin rice and choice of meat</i></h4>
+	<h4><i>Served with jasmin rice and choice of meat</i></h4>
 </p>
-
+<hr size="2" color= "black">
 <table>
  	<tr>
     <td>VEGETABLE</td>
@@ -140,7 +263,7 @@
     </b>
   </tr>
 </table>
-
+<hr size="2" color= "black">
 <p>
 	<ol>
 	<li><strong> 🌶️🌶️RED CURRY</strong><br> SPICY AND A LITTLE SALTY CURRY SAUCE WITH BAMBOO SHOTS, ASSORTED VEGETABLE & BASIL<br><br>
@@ -164,9 +287,10 @@
 	<li><strong>🌶️ KHAO SOY (CURRY NOODLE SOUP)</strong><br> NORTHERN THAILAND NOODLE CURRY SOUP WITH ASIAN VEGETABLE, PICK YOUR OWN MEAT AND NOODLES<br><br>
 	</ol>
 </p>
+</div>
+</div>
 
-<hr size="2" color= "black">
-<p>
+<div class="bottom">
 	<center>
 	<strong>
 	<h1>LUNCH SPECIAL STARTS at $7.95</h1>
@@ -195,37 +319,13 @@
 	</strong>
 	</h4>
 	</center>
-</p>
 
-<hr size="2" color= "black">
 
-<p>
-<h2>SIDE ORDER</h2></div>
-<table>
- 	<tr>
-    <td>RED JASMIN RICE</td>
-    <td>1</td>
-    <td>PEANUT SAUCE</td>
-    <td>2</td></h1></tr>
-  </tr>
-  <tr>  
-    <td>STEAMED RICE NOODLE</td>
-    <td>1</td>
-  </tr>
-</table><br><br>
-</p>
 
-<p>
-	<h2>KOAK WAAN (DESSERT)</h2> 
-	</div>
-	<ol>
-	<li>MANGO WITH COCONUT STICKY RICE<span style="float:right">5.95</span><br>
-	<li>YAM CUSTARD WITH PURPLE STICKY RICE<span style="float:right">5.95</span><br><br>
-	</ol>
-</p>
 
-<center><h3><strong><i>Please let the sever know the degree of your desired spiciness.</i></strong></h3>
-	<h5><strong><i>Thorougly cooking meats, poultry, seafood, shellfish or eggs reduces the risk of food bourne illness</i></strong></h5><center>
+
+		
+
 </div>
 </body>
 </html>

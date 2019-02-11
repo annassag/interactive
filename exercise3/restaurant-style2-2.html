@@ -1,100 +1,228 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link href="https://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Stalinist+One" rel="stylesheet">
 	<title>Jeera Thai</title>
 	<style type="text/css">
-		
-	body {
-	font-family: 'Arial', sans-serif;
-	margin: 0;
-	}
 
-	#container {
-	max-width: 800px;
-	margin: 0 auto;
-	}
+		img {
+		max-width: 105%;
+		margin: auto;
+		padding: 0;
 
-	.top {
-	background-color: purple;
-	color: white;
-	width: 100%;
-	letter-spacing: 0.1em;
-	
-	}
+		}
+		.grid-container {
+		  display: inline-grid;
+		 grid-template-columns: 6% 6% 82% 6%;
+		  padding: 0px;
+		  overflow: hidden;
 
-	.headline {
-		font-family: "Arial Black";
-		color: purple;
+		}
 
-	}
+		.grid-item1 {
+		  padding: 0px;
+		  background-color: #ff0000;
+		  color: #66ffff;
+		}
 
-	nav {
-		position: fixed;
-		left: 0px;
-		top: 0px;
-		width: 200px;
+		.grid-item1 h1 {
+		writing-mode: vertical-rl;
+		text-orientation: sideways;
+		font-family: 'Stalinist One', cursive;
+		font-size: 60px;
+		text-align: center;
+		padding-top: 50px;
+		margin: auto;
+
+		}
+
+		.grid-item2 {
+		  padding: 0px;
+		  background-color: #66ffff;
+		}
+
+		.grid-item2 h1 {
+		writing-mode: vertical-rl;
+		text-orientation: sideways;
+		font-family: 'Stalinist One', cursive;
+		font-size: 60px;
+		text-align: center;
+		padding-top: 50px;
+		color: red;
+		margin: auto;
+
+		}
+		.grid-item3 {
+		  padding: 0px;
+		  background-color: #ff0000;
+
+		}
+		.grid-item4 {
+		  padding: 0px;
+		  background-color: #66ffff;
+
+		}
+
+		.grid-item4 h1 {
+		writing-mode: vertical-rl;
+		text-orientation: sideways;
+		font-family: 'Stalinist One', cursive;
+		font-size: 60px;
+		text-align: center;
+		padding-top: 50px;
+		color: red;
+		margin: auto;
+
+		}
+
+		 @-webkit-keyframes spinner {
+    from { -webkit-transform: rotateY(0deg);    }
+    to   { -webkit-transform: rotateY(360deg); }
+  }
+
+  /* all other browsers */
+  @keyframes spinner {
+    from {
+      -moz-transform: rotateY(0deg);
+      -ms-transform: rotateY(0deg);
+      transform: rotateY(0deg);
+    }
+    to {
+      -moz-transform: rotateY(360deg);
+      -ms-transform: rotateY(360deg);
+      transform: rotateY(360deg);
+    }
+  }
+		 #stage {
+    margin: auto;
+    -webkit-perspective: 1200px;
+    -moz-perspective: 1200px;
+    -ms-perspective: 1200px;
+    perspective: 1200px;
+    padding-top: 250px;
+    position: fixed;
+    font-family: 'Stalinist One', cursive;
+    padding-left: 4em;
+    font-size: 75px;
+    color: #66ffff;
+
+  }
+#spinner {
+    -webkit-animation-name: spinner;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 6s;
+
+    animation-name: spinner;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 60s;
+
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+
+  #spinner:hover {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+  }
+
+
+		div {
+  		clear: both;
+		}
+
+		table {
+			width: 800px;
+		}
+
+		body {
+			font-family: "Arial";
+			margin: 0;
+		}
+
+
+		.top {
 		background-color: purple;
 		color: white;
-		padding: 30px 20px;
-		font-family: "Arial Black";
-		border: 2px;
+		width: 100%;
+		letter-spacing: 0.1em;
+	
+		}
 
 
-	}
-	a:visited {
-		color: white;
+		.bottom {
+			background-color: purple;
+			margin: 0;
+			padding: 20px;
+			color: white;
 
+		}
 
-	}
-	a {
-		text-decoration: none;
-	}
+		#base {
+			background-color: #ff0000;
+			color: #66ffff;
+			padding-top: 765px;
+			font-family: 'Stalinist One', cursive;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
 
-	table {
-	width: 800px;
+		.links {
+			background-color: #66ffff;
+			color: #ff0000;
+			padding-top: 0;
+			height: 60px;
+			font-family: 'Stalinist One', cursive;
+			padding-left: 20px;
+			padding-right: 20px;
+			text-align: center;
+			border: solid 1px #ff0000;
+		}
 
-	}
+		.links2 {
+			background-color: #ff0000;
+			color: #66ffff;
+			padding-top: 0;
+			height: 60px;
+			font-family: 'Stalinist One', cursive;
+			padding-left: 20px;
+			padding-right: 20px;
+			text-align: center;
+			padding-top: 15px;
+		}
 
 	</style>
 
+
+
 </head>
-<center>
-	<div class="top"><p style="font-size: 7em; margin-top: 0em; margin-bottom: 1em; padding-top: 0.5em;font-family: 'Merienda One'">Jeera Thai</p>
-	<h2>HEALTHY THAI KITCHEN<br><br><br><br>
-	216 Crown Street<br>
-	New Haven, CT, 06510<br><br>
-	TEL: (203) 562-5856<br>
-	FAX: (203) 777-7226</h2>
-	<h3>HOURS:<br>
-	MON – SAT 11:30 AM - 10:00 PM<br>
-	SUN 12:00 PM - 10:00 PM<br><br>
-	CASH ONLY</h3><br>
-	<h2>www.jeerathai.com<br>
-	facebook: @jeerathai<br><br>
-	New Haven ~ Westport</h2><br>
-	<h3>Vegan, gluten free upon request</h3><br><br></div>
-</center>
-</p>
+	
 
-<nav>
-	<a href="#aahaan-wang">AAHAAN WANG</a><BR>
-	<a href="#thom">THOM</a><BR>
-	<a href="#yum">YUM</a><BR>
-	<a href="#aahaan-pised">AAHAAN PISED</a><BR>
-	<a href="#aahan-yang">AAHAAN YANG</a><BR>
-	<a href="#aahaan-pad">AAHAAN PAD</a><BR>
-	<a href="#kaeng">KAENG </a><BR>
-	<a href="#kao-kub">KAO KUB KUAYTIEW</a><BR>
-	<a href="#lunch-special">LUNCH SPECIALS</a> <BR>
-	<a href="#side-order">SIDE ORDERS </a><BR>
-	<a href="#koak-waan">KOAK WAAN</a><BR>
 
-</nav>
-<div id="container">
-	<div style="font-family: 'Arial Black'; color: purple">
-	<h2 id="aahaan-wang">AAHAAN WANG <span style="font-family: 'Arial'">(APPETIZERS)</span></h2>
+
+<div id="container" class="grid-container">
+	
+<div class="grid-item1">
+<h1><a href="#menu">Menu</a>Cash.Only</h1>
 	</div>
+
+
+	<div class="grid-item2">
+<h1>New.Haven</h1>
+	</div>
+
+	
+<div class="grid-item3">
+	<div id="stage">
+<p id="spinner">JEERA THAI</p>
+</div>
+<div id="base">
+	<img src="../assets/bild.png">
+	<p id="aahan-wang"><h2>AAHAAN WANG</h2></p>
 	<ol>
 	<li><strong>PAD THAI SPRING ROLLS 5.95</span></strong><br>CRISPY THAI SPRING ROLLS WITH PINEAPPLE SAUCE<br><br>
 	<li><strong>GREEN EMERALD DUMPLING 6.95</span></strong><br>STEAMED VEGETABLE DUMPLING WITH VINAIGRETTE AND ROASTED SESAME DIPPING SAUCE<br><br>
@@ -104,9 +232,7 @@
 </p>
 
 <p>
-	<div style="font-family: 'Arial Black'; color: purple">
-	<h2 id="thom">THOM <span style="font-family: 'Arial'">(SOUP)</span></h2>
-	</div>
+	<p id="thom"><h2>THOM (SOUP)</h2></p>
 	<ol>
 	<li><strong>🌶️TOM YUM (VEGETARIAN OPTION AVAILABLE)4.95</span></strong><br>SPICY SHRIMP SOUP LEMONGRASS, GALANGAL, AND FRESH LIME LEAF, REFINED AND POWERFUL<br><br>
 	<li><strong>THAI COCONUT SOUP (VEGETARIAN OPTION AVAILABLE)4.95</span></strong><br>REFRESHING SOUP WITH CHICKEN LEMONGRASS, GALANGAL, AND FRESH LIME LEAF IN COCONUT BROTH<br><br>
@@ -114,9 +240,7 @@
 </p>
 
 <p>
-	<div style="font-family: 'Arial Black'; color: purple">
-	<h2 id="yum">YUM<span style="font-family: 'Arial'">(SALAD)</span></h2> 
-	</div>
+	<p id="yum"><h2>YUM (SALAD)</h2></p> 
 	<ol>
 	<li><strong> 🌶️🌶️SOMTUM8.95</span></strong><br> THAI TRADITIONAL GREEN PAPAYA SALAD<br><br>
 	<li><strong> 🌶️🌶️SOMTUM KORAT8.95</span></strong><br> THAI TRADITIONAL E-SAN STYLE VERY SPICY GREEN PAPAYA SALAD<br><br>
@@ -126,9 +250,7 @@
 </p>
 
 <p>
-	<div style="font-family: 'Arial Black'; color: purple">
-	<h2 id="aahaan-pised">AAHAAN PISED <span style="font-family: 'Arial'">(CHEF SPECIAL)</span></h2>
-	</div>
+	<p id="#aahan-pised"><h2>AAHAAN PISED (CHEF SPECIAL)</h2>
 	<h5><strong><i>Served with red jasmin rice</i></strong></h5>
 	<ol>
 	<li><strong> 🌶️SHRIMP MANGO CURRY14.95</span></strong><br> ALL YEAR ROUND FRESH MANGO WITH RED CURRY SAUCE<br><br>
@@ -140,50 +262,18 @@
 </p>
 
 <p>
-	<div style="font-family: 'Arial Black'; color: purple">
-	<h2 id="aahan-yang">AAHAAN YANG <span style="font-family: 'Arial'">(BBQ)</span></h2> 
-	</div>
+
+	<h2>AAHAAN YANG (BBQ)</h2> 
 	<ol>
 	<li><strong> THAI BBQ CHICKEN</strong><br> MARINATED CHICKEN WITH THAI SEASONING SERVED WITH BLACK STICKY RICE AND SPICY TAMARIND SAUCE<br>
 	</ol>
-	</div>
 	<h3><strong><i><center>Please let the sever know the degree of your desired spiciness.</center></i></strong></h3>
 	<h5><strong><i><center>Thorougly cooking meats, poultry, seafood, shellfish or eggs reduces the risk of food bourne illness</center></i></strong></h5>
 </p>
-
-<div id="container">
-<hr size="2" color= "black">
-<table>
- 	<b>
- 	<tr>
-    <td>VEGETABLE</td>
-    <td>8.95</td>
-    <td>DUCK</td>
-    <td>12.95</td></h1></tr><b></h1>
-  </tr>
-  <tr>
-    <td>TOFU</td>
-    <td>9.95</td>
-    <td>MOCK DUCK</td>
-    <td>12.95</td>
-  </tr>
-  <tr>
-    <td>CHICKEN</td>
-    <td>9.95</td>
-    <td>SHRIMP</td>
-    <td>11.95</td>
-    </h3>
-    </b>
-  </tr>
-</b>
-</table>
-<hr size="2" color= "black">
 <br>
 
 <p>
-	<div style="font-family: 'Arial Black'; color: purple">
-	<h2 id="aahaan-pad">AAHAAN PAD <span style="font-family: 'Arial'">(STIR FRIED)</span></h2>
-	</div>
+	<h2>AAHAAN PAD STIR FRIED)</h2>
 	<ol>
 	<li><strong> 🌶️🌶️KAPROW</strong><br> ASIAN VEGETABLES, ONION, GARLIC, CARROT AND CHILIES IN HOT BASIL SAUCE<br><br>
 	<li><strong> PAD PAK RUAM</strong><br> ASSORTED VEGETABLES, WITH DELICATE BROWN SAUCE<br><br>
@@ -194,33 +284,11 @@
 </p>
 
 
-<p><div style="font-family: 'Arial Black'; color: purple">
-	<h2 id="kaeng">KAENG<span style="font-family: 'Arial'"> (CURRY)</span></h2>
-	</div><h4><i>Served with jasmin rice and choice of meat</i></h4>
+<p>
+	<h2>KAENG (CURRY)</h2>
+	<h4><i>Served with jasmin rice and choice of meat</i></h4>
 </p>
 
-<table>
- 	<tr>
-    <td>VEGETABLE</td>
-    <td>9.95</td>
-    <td>DUCK</td>
-    <td>12.95</td></h1></tr><b></h1>
-  </tr>
-  <tr>
-    <td>TOFU</td>
-    <td>9.95</td>
-    <td>MOCK DUCK</td>
-    <td>12.95</td>
-  </tr>
-  <tr>
-    <td>CHICKEN</td>
-    <td>9.95</td>
-    <td>SHRIMP</td>
-    <td>11.95</td>
-    </h3>
-    </b>
-  </tr>
-</table>
 
 <p>
 	<ol>
@@ -233,9 +301,7 @@
 </p>
 
 <p>
-	<div style="font-family: 'Arial Black'; color: purple">
-	<h2 id="kao-kub">KAO KUB KUAYTIEW <span style="font-family: 'Arial'">(RICE AND NOODLE)</span></h2>
-	</div>
+	<h2>KAO KUB KUAYTIEW (RICE AND NOODLE)</h2>
 	<h4><strong><i>Choice of meat above</i></strong></h4>
 	<ol>
 	<li><strong> JEERA HOUSE FRIED RICE</strong><br> FRIED RED JASMIN RICE WITH ASIAN VEGETABLE, TOMATO, ONION AND EGG<br><br>
@@ -247,12 +313,10 @@
 	<li><strong>🌶️ KHAO SOY (CURRY NOODLE SOUP)</strong><br> NORTHERN THAILAND NOODLE CURRY SOUP WITH ASIAN VEGETABLE, PICK YOUR OWN MEAT AND NOODLES<br><br>
 	</ol>
 </p>
-
-<hr size="2" color= "black">
 <p>
 	<center>
 	<strong>
-	<div class="headline" id="lunch-special"><h1>LUNCH SPECIAL STARTS at $7.95</h1></div>
+	<h1>LUNCH SPECIAL STARTS at $7.95</h1>
 	<h4>Mon - Fri (11:30 am - 2.30 pm)<br><br>CHOICE OF YOUR OWN PROTEIN<br>TOFU OR VEGETABLE $7.95, CHICKEN $7.95, SHRIMP $9.95</h4>
 	<div id="headline"><h2>RICE N NOODLES</h2></div>
 	JERRA FRIED RICE<br>
@@ -280,10 +344,8 @@
 	</center>
 </p>
 
-<hr size="2" color= "black">
-
 <p>
-<div class="headline" id="side-order"><h2>SIDE ORDER</h2></div>
+<h2>SIDE ORDER</h2>
 <table>
  	<tr>
     <td>RED JASMIN RICE</td>
@@ -299,9 +361,7 @@
 </p>
 
 <p>
-	<div style="font-family: 'Arial Black'; color: purple">
-	<h2 id="koak-waan">KOAK WAAN <span style="font-family: 'Arial'">(DESSERT)</span></h2>
-	</div>
+	<h2>KOAK WAAN (DESSERT)</h2>
 	<ol>
 	<li>MANGO WITH COCONUT STICKY RICE5.95</span><br>
 	<li>YAM CUSTARD WITH PURPLE STICKY RICE5.95</span><br><br>
@@ -310,6 +370,41 @@
 
 <center><h3><strong><i>Please let the sever know the degree of your desired spiciness.</i></strong></h3>
 	<h5><strong><i>Thorougly cooking meats, poultry, seafood, shellfish or eggs reduces the risk of food bourne illness</i></strong></h5><center>
+</div>
+<hr size="3" color= "#66ffff">
+<div class="links2">
+	<p id="menu">MENU</p>
+</div>
+<hr size="3" color= "#66ffff">
+<div class="links2">
+	<a href="#thom">THOM (SOUP)</a>
+</div>
+<hr size="3" color= "#66ffff">
+<div class="links2">
+	<a href="#yum">YUM (SALAD)</a>
+
+</div>
+<hr size="3" color= "#66ffff">
+<div class="links2">
+	<a href="#aahan-pised">AAHAN PISED (CHEF SPECIAL)</a>
+</div>
+<hr size="3" color= "#66ffff">
+<div class="links2">
+	<a href="#aahan-pised">AAHAN WANG (APPETIZERS)</a>
+</div>
+</div>
+
+
+<div class="grid-item4">
+	<h1>(203)562.5856</h1>
+</div>
+
+
+
+
+
+		
+
 </div>
 </body>
 </html>
