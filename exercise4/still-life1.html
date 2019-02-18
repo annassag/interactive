@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>CSS Still Life 1</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="canvas.css">
+
+	<style>
+	.canvas {
+		/* if you want to change the background of your canvas, do it here */
+		background: #bebed2;
+	}
+
+
+	#lamp {
+		width: 130px;
+		height: 100px;
+		background: white;
+		border-radius: 45%;
+		top: 70px;
+		left:112px;
+		position: absolute;
+
+	}
+
+	#lamp #stand { 
+		width: 67px;
+	 	height: 15px;
+	 	background-color: grey;
+	 	top:100px;
+	 	left: 29px;
+	 	position: absolute;
+
+	 }
+
+
+
+	#lamp #orb {
+	width: 100%
+	height: 100%;
+	background: white;
+	border-radius: 45%
+	position: absolute;
+	top: 20px;
+	left: -15px;
+
+
+	}
+	
+	#lamp #orb {
+
+	}
+
+	#glass {
+		height: 120px;
+		width: 60px;
+		position: absolute;
+		top: 70px;
+		right: 300px;
+
+	}
+
+ #glass #top {
+position: absolute;
+height: 30px;
+width: 100%;
+top: -15px;
+border-radius: 50%;
+border: 1px solid white;
+ }
+
+#glass {
+		width: 90px;
+		height: 170px;
+		position: absolute;
+		top: 50px;
+		right: 360px;
+		border-left: 1px solid white;
+		border-right: 1px solid white;
+	}
+
+	#glass #top {
+		position: absolute;
+    height: 30px;
+    width: 100%;
+    top: -15px;
+		left: -1px;
+    border-radius: 50%;
+    border: 1px solid white;
+	}
+
+	#glass #water {
+		position: absolute;
+		top: 60%;
+		height: 40%;
+		width: 100%;
+		background: white;
+		opacity: 0.4;
+	}
+
+	#glass #water-top {
+		position: absolute;
+		top: calc(60% - 15px);
+		height: 30px;
+		width: 100%;
+		border-radius: 50%;
+		background: white;
+	}
+
+	#glass #bottom {
+		position: absolute;
+    height: 30px;
+    width: 100%;
+    bottom: -15px;
+    border-radius: 50%;
+    background: #60656f;
+	}
+
+#cats {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: 200px;
+	left: 260px;
+}
+
+#cats #dome {
+	width: 100%;
+	height: 80%;
+	position: absolute;
+	background: white;
+	opacity: 0.2;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+
+
+}
+
+#cats #stand {
+	width: 100%;
+	height: 30px;
+	background-color: red;
+	position: absolute;
+	bottom: 0px;
+}
+
+
+#cats #cat
+{
+	height: 40px;
+	width: 39px;
+	position: absolute;
+	left: 27px;
+	bottom: 20px;
+}
+
+#cats #cat #body {
+	width: 100%;
+	height: 60%;
+	position: absolute;
+	bottom: 0;
+	background-color: gold;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+}
+
+#cats #cat #head {
+	width: 100%;
+	height: 40%;
+	position: absolute;
+	top: 0;
+	background-color: gold;
+	border-radius: 50%;
+
+}
+
+
+	</style>
+
+</head>
+
+<body>
+
+		<!-- this starts the canvas div. do not delete this! -->
+    <div class="canvas">
+    	<div id="lamp">
+    		<div id="orb"></div>
+    		<div id="stand"></div>
+    	</div>
+    <div id="glass">
+    	<div id="top"></div>
+    	<div id="water"></div>
+    	<div id="water-top"></div>
+    	<div id="bottom"></div>
+    </div>
+    <div id="cats">
+    	<div id="dome"></div>
+    	<div id="stand"></div>
+    	<div id="cat">
+    		<div id="body"></div>
+    		<div id="head"></div>
+    	</div>
+    </div>
+
+		
+    </div>
+
+</body>
+
+</html>
