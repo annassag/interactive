@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+  </title>
+  <style type="text/css">
+    
+      
+ body {
+  margin: 0;
+ }   
+
+ .background {
+      background-image: url("assets/CD-Drive-Outlined.png");
+      background-position: top;
+      background-size: auto;
+
+    }  
+
+   .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  align-items: center;
+}
+
+.column {
+  flex: 24%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: top;
+  width: 100%;
+}
+
+.shake {
+    filter: blur(10px);
+    opacity: 1;
+}
+    
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 2%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 98%;
+  width: 100%;
+  opacity: 0.4;
+  transition: .3s ease;
+  background-color: yellow;
+}
+
+.container:hover .overlay {
+  opacity: 0;
+}
+
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 48%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+  }
+}
+
+@media print
+
+{ .column {display: none;}
+
+body {
+   content:url(assets/CD-Drive-Outlined.png);
+   width: 900px;
+}
+  
+
+  </style>
+</head>
+<body>
+<div class="background">
+<div class="row"> 
+
+  <!-- FIRST ROW!-->
+  <div class="column">
+   <div><div><span onclick="this.parentElement.style.display='none'"><img src="assets/2.jpg"></span></div></div>
+    <!-- OVERLAY-->
+      <div class="container">
+        <img src="assets/8-CM.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+        <img src="assets/globespin2.gif" alt="Avatar" class="image">
+      </div>
+      </div>
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/5-jag.jpg"></span></div>
+    <!-- OVERLAY-->
+      <div class="container">
+        <img src="assets/14-CM.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+        <img src="assets/globespin2.gif" alt="Avatar" class="image">
+      </div>
+      </div>
+      <!-- OVERLAY-->
+      <div class="container">
+        <img src="assets/18-CM.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+        <img src="assets/globespin2.gif" alt="Avatar" class="image">
+      </div>
+      </div>
+      <div><span onclick="this.parentElement.style.display='none'"><img src="assets/22.jpg"></span></div>
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/26.jpg"></span></div>
+    <div class="shake"><span onclick="this.parentElement.style.display='none'"><img src="assets/30-wei.jpg"></span></div>
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/34-jag.jpg"></span></div>
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/38.jpg"></span></div>
+    <div class="shake"><span onclick="this.parentElement.style.display='none'"><img src="assets/42.jpg"></span></div>
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/50-jag.jpg"></span></div>
+    <!-- OVERLAY-->
+      <div class="container">
+        <img src="assets/54-CM.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+        <img src="assets/globespin2.gif" alt="Avatar" class="image">
+      </div>
+      </div> 
+       <div><span onclick="this.parentElement.style.display='none'"><img src="assets/58.jpg"></span></div>
+        <!-- OVERLAY-->
+      <div class="container">
+        <img src="assets/63-CM.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+        <img src="assets/globespin2.gif" alt="Avatar" class="image">
+      </div>
+      </div> 
+       <div><span onclick="this.parentElement.style.display='none'"><img src="assets/67.jpg"></span></div>
+       <div><span onclick="this.parentElement.style.display='none'"><img src="assets/71.jpg"></span></div>
+       <div><span onclick="this.parentElement.style.display='none'"><img src="assets/72-matilda.jpg"></span></div>
+       <div class="shake"><span onclick="this.parentElement.style.display='none'"><img src="assets/79-wei.jpg"></span></div>
+       <div class="container">
+        <img src="assets/83-jag.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+        <img src="assets/globespin2.gif" alt="Avatar" class="image">
+      </div>
+      </div> 
+       <div class="shake"><span onclick="this.parentElement.style.display='none'"><img src="assets/87-wei.jpg"></span></div>
+  </div>
+
+  <!-- SECOND ROW!-->
+
+  <div class="column">
+    <!-- OVERLAY-->
+      <div class="container">
+        <img src="assets/1-CM.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+        <img src="assets/globespin2.gif" alt="Avatar" class="image">
+      </div>
+      </div>
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/6-jag.jpg"></span></div>
+        <!-- OVERLAY-->
+      <div class="container">
+        <img src="assets/12-CM.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+        <img src="assets/globespin2.gif" alt="Avatar" class="image">
+      </div>
+      </div> 
+        <!-- OVERLAY-->
+      <div class="container">
+        <img src="assets/15-CM.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+        <img src="assets/globespin2.gif" alt="Avatar" class="image">
+      </div>
+      </div> 
+     <div class="shake"><span onclick="this.parentElement.style.display='none'"><img src="assets/19-wei.jpg"></span></div>
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/23-mom.jpg"></span></div>
+    <div class="shake"><span onclick="this.parentElement.style.display='none'"><img src="assets/27-mom-wei.jpg"></span></div>
+    <div class="shake"><span onclick="this.parentElement.style.display='none'"><img src="assets/31-wei.jpg"></span></div>
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/35.jpg"></span></div>
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/39.jpg"></span></div>
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/43-jag.jpg"></span></div>
+    <div class="shake"><span onclick="this.parentElement.style.display='none'"><img src="assets/47-wei.jpg"></span></div>
+    <!-- OVERLAY-->
+      <div class="container">
+        <img src="assets/55-CM.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+        <img src="assets/globespin2.gif" alt="Avatar" class="image">
+      </div>
+      </div>  
+  <!-- OVERLAY-->
+      <div class="container">
+        <img src="assets/51-CM.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+        <img src="assets/globespin2.gif" alt="Avatar" class="image">
+      </div>
+      </div> 
+      <!-- OVERLAY-->
+      <div class="container">
+        <img src="assets/59-CM.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+        <img src="assets/globespin2.gif" alt="Avatar" class="image">
+      </div>
+      </div> 
+      <div><span onclick="this.parentElement.style.display='none'"><img src="assets/64.jpg"></span></div>
+      <div><span onclick="this.parentElement.style.display='none'"><img src="assets/68-jag.jpg"></span></div>
+      <div><span onclick="this.parentElement.style.display='none'"><img src="assets/76.jpg"></span></div>
+      <div><span onclick="this.parentElement.style.display='none'"><img src="assets/80.jpg"></span></div>
+      <div><span onclick="this.parentElement.style.display='none'"><img src="assets/84.jpg"></span></div>
+      <div><span onclick="this.parentElement.style.display='none'"><img src="assets/88.jpg"></span></div>
+  </div>
+
+  <!-- THIRD ROW!-->
+
+  <div class="column">
+    <!-- OVERLAY-->
+      <div class="container">
+        <img src="assets/3-CM.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+        <img src="assets/globespin2.gif" alt="Avatar" class="image">
+      </div>
+      </div> 
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/7.jpg"></span></div>
+    <!-- OVERLAY-->
+      <div class="container">
+        <img src="assets/10-CM.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+        <img src="assets/globespin2.gif" alt="Avatar" class="image">
+      </div>
+      </div> 
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/16.jpg"></span></div>
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/20.jpg"></span></div>
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/24-jag-mom.jpg"></span></div>
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/28.jpg"></span></div>
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/32.jpg"></span></div>
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/36.jpg"></span></div>
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/40.jpg"></span></div>
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/44.jpg"></span></div>
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/48.jpg"></span></div>
+     <div><span onclick="this.parentElement.style.display='none'"><img src="assets/52.jpg"></span></div>
+      <!-- OVERLAY-->
+      <div class="container">
+        <img src="assets/56-jag.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+        <img src="assets/globespin2.gif" alt="Avatar" class="image">
+      </div>
+      </div> 
+      <div><span onclick="this.parentElement.style.display='none'"><img src="assets/60.jpg"></span></div>
+      <!-- OVERLAY-->
+      <div class="container">
+        <img src="assets/65-CM.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+        <img src="assets/globespin2.gif" alt="Avatar" class="image">
+      </div>
+      </div> 
+      <div><span onclick="this.parentElement.style.display='none'"><img src="assets/69.jpg"></span></div>
+      <div><span onclick="this.parentElement.style.display='none'"><img src="assets/77.jpg"></span></div>
+      <div><span onclick="this.parentElement.style.display='none'"><img src="assets/81-jag.jpg"></span></div>
+      <div class="shake"><span onclick="this.parentElement.style.display='none'"><img src="assets/85-wei.jpg"></span></div>
+      <div><span onclick="this.parentElement.style.display='none'"><img src="assets/89.jpg"></span></div>
+  </div>
+
+  <!-- FOURTH ROW!-->
+
+  <div class="column">
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/4-jag.jpg"></span></div>
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/11-matilda.jpg"></span></div>
+     <div><span onclick="this.parentElement.style.display='none'"><img src="assets/13-jag.jpg"></span></div>
+     <div><span onclick="this.parentElement.style.display='none'"><img src="assets/17.jpg"></span></div>
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/21.jpg"></span></div>
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/25.jpg"></span></div>
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/29.jpg"></span></div>
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/33-jag.jpg"></span></div>
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/37.jpg"></span></div>
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/41.jpg"></span></div>
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/45.jpg"></span></div>
+    <div><span onclick="this.parentElement.style.display='none'"><img src="assets/49.jpg"></span></div>
+    <!-- OVERLAY-->
+      <div class="container">
+        <img src="assets/53-CM.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+        <img src="assets/globespin2.gif" alt="Avatar" class="image">
+      </div>
+      </div> 
+      <div><span onclick="this.parentElement.style.display='none'"><img src="assets/57-matilda.jpg"></span></div>
+      <div><span onclick="this.parentElement.style.display='none'"><img src="assets/62.jpg"></span></div>
+      <!-- OVERLAY-->
+      <div class="container">
+        <img src="assets/66-CM.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+        <img src="assets/globespin2.gif" alt="Avatar" class="image">
+      </div>
+      </div> 
+      <div><span onclick="this.parentElement.style.display='none'"><img src="assets/70-matilda.jpg"></span></div>
+      <div class="shake"><span onclick="this.parentElement.style.display='none'"><img src="assets/78-wei.jpg"></span></div>
+       <!-- OVERLAY-->
+      <div class="container">
+        <img src="assets/82-jag.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+        <img src="assets/globespin2.gif" alt="Avatar" class="image">
+      </div>
+      </div> 
+      <div><span onclick="this.parentElement.style.display='none'"><img src="assets/86.jpg"></span></div>
+      <div><span onclick="this.parentElement.style.display='none'"><img src="assets/90.jpg"></span></div>
+  </div>
+</div>
+</div>
+</body>
+</html>
