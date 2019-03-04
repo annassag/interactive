@@ -10,45 +10,28 @@
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
 	<style type="text/css">
-		@font-face {
-	    font-family: 'Plaid S Mono';
-	    src: url('plaid-s-mono.eot');
-	    src: url('plaid-s-mono.eot?#iefix') format('embedded-opentype'),
-	        url('plaid-s-mono.woff2') format('woff2'),
-	        url('plaid-s-mono.woff') format('woff');
-	    font-weight: normal;
-	    font-style: normal;
-
-		}
-
-		.title {
- 			/*font-family: 'Plaid S Mono';*/
- 			color: #FFFFFF;
- 			font-family: 'Helvetica', sans-serif;
-	    	font-weight: normal;
-	    	font-style: normal;
-			font-size: 0.75em;
-			margin-top: 0em;
-			margin-left: 1.5em;
-			margin-right: 1.5em;
-			margin-bottom: 0em;
-			letter-spacing: 0.0em;
-
-		}
-	
+		
 		.background {
-			background-image: url("water.gif");
-			height: 100%;
-			background-position: top;
-  			background-repeat: no-repeat;
-  			background-size: cover;
+	   background-image: url("water.gif");
+		height: 100%;
+		background-position: top;
+  		background-repeat: no-repeat;
+  		background-size: cover;
 
+		}
+
+		.background:hover, .blue {
+			background-image: url("bg2.jpg");
+		}
+
+		.background2 {
+			background-image: url("bg2.jpg");
 		}
 
 		.square1 {
 		width: 816px;
 		height: 164px;
-		background: beige;
+		background-color: beige;
 		top: 293px;
 		left: 263px;
 		position: absolute;
@@ -65,6 +48,9 @@
 		position: absolute;
 
 		}
+		.square2:on click .square2.blue {
+			background-color: blue;
+		} 
 
 		.square3 {
 		width: 654px;
@@ -769,5 +755,7 @@
 	
 		</div>
 	</div>	
+	<script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
